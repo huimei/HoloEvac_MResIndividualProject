@@ -1,0 +1,29 @@
+- updated website
+  * cd docs/website/
+  * conf.py, Download.rst, index.rst, Documentation.rst
+  * examples/ <-- the source code
+    See what needs to be updated since TAG_NAME "git diff --name-status TAG_NAME ddogleg/examples"
+  * git tag links to github *.rst example files
+  * make html
+  * scp _build to ddogleg.org
+- update version in build.gradle
+- update change.txt
+- ./gradlew test
+- ./gradlew install
+- Generate javadoc
+  ./gradlew alljavadoc
+- ./gradlew createLibraryDirectory
+- commit and tag release
+- Upload to sourceforge (src,libs)
+- Update Maven central repository
+
+
+----
+Gradle
+
+To post a SNAPSHOT or full release:
+gradle uploadArchives
+
+A SNAPSHOT is created if SNAPSHOT is in its name.
+
+log onto http://oss.sonatype.org

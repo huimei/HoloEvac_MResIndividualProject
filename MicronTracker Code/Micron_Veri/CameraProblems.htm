@@ -1,0 +1,74 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+	<head>
+		<title></title>
+        <H2>Troubleshooting activation of a MicronTracker camera (Windows)</H2>		
+	</head>
+	<body>
+	
+	<ul>
+	
+	<P>
+	<b>If your camera is not recognized by the system or listed in the Select Camera dialog box when running one of the example programs, try the following basic troubleshooting tips first. When ready, click <i>Activate > Restart</i> from the menu bar to try and re-establish the camera connection.</b>
+	</P>
+
+	<P>
+    <li></li><i> Did you follow the specific instructions for installing the driver under Windows? </i><br />
+
+    If not, reinstall the MicronTracker and FlyCapture software and drivers using your camera’s Installation Guide, or follow the instructions <A href="https://www.ptgrey.com/KB/10020">here</A>.
+    </P>
+
+	<P>
+    <li></li><i>Does the camera show up in the Windows Device Manager? </i><br />
+
+    If the camera is displayed in Device Manager but with an exclamation point beside the device, the device has been recognized by the operating system, but there may be a problem with the drivers. See the related article below for more information on reinstalling these drivers. If the camera is not listed in Device Manager, continue with the following troubleshooting tips.
+    </P>
+
+	<P>
+    <li></li><i>Does anything at all happen when the camera is first plugged in?  </i><br />
+
+    Open Device Manager, then plug the camera in. When the camera is first plugged in, the Device Manager window should refresh itself, and a dialog box will often appear asking whether you would like to install the device. If neither of these things occur, continue with the following troubleshooting tips.
+    </P>
+
+	<P>
+    <li></li><i>Is the small LED light on (but not flashing) at the front or back of the camera device? </i> <br />
+
+    If the LED is not on, the camera is not receiving power. To check that the camera is receiving power, ensure that the 1394 FireWire cable is connected into the FireWire card and into the camera. Also ensure that the FireWire card is receiving power; with desktop PC’s this involves checking that the power connector on the card is plugged in (inside the machine). With a notebook or laptop computer, most FireWire cards need external power such as a FireWire hub. If power is being supplied properly to the camera and the light does not illuminate, or if you are unsure whether power is being supplied to the camera, continue to the next troubleshooting tip. If the LED is on but flashing, check your camera's Technical Reference or Getting Started manual for LED status codes.  <br />
+    </P>
+
+	<P>
+    <li></li><i>If your 1394 FireWire card has a power connector, is it plugged in?  </i><br />
+
+    To check this you will need to open your computer. There is a standard hard drive power connector on some 1394 cards. Ensuring that it is connected is useful in cases when there is a large power requirement on the bus i.e. when there are multiple cameras on the same bus. Please consult your computer’s owner’s manual for power connection instructions. If the FireWire card is powered, continue to the next troubleshooting tip. <br />
+    </P>
+
+	<P>
+    <li></li><i>Have you tried different Firewire cables or FireWire PCI cards? </i> <br />
+
+    To ensure that the problem is not due to faulty cables or PCI card hardware, try the camera with different combinations of cables and cards (if available). Ensure that all segements of cable are less than the 4.5m limit from the IEEE1394 specifications. If the cable and card seem to be functioning correctly, continue to the next troubleshooting tip.
+    </P>
+
+	<P>
+    <li></li><i>Are you connecting the camera to the computer through any firewire hubs or repeaters?  </i><br />
+
+    If you are not connecting the camera directly to the computer already, remove any hardware devices between the camera and the computer. If once the camera is connected directly to the computer the problem persists, please continue to the next roubleshooting step.
+    Do other MicronTracker cameras work on the exact same system configuration?  <br />
+
+    If you have more than one MicronTracker camera, try plugging each camera into the same system, using the same configuration (same PC, Firewire card, and Firewire cable). If none of your cameras function on a specific configuration, this can narrow the problem down to either the PC, card, or cable. Try different cables and cards to narrow the source of the problem. If all other cameras work on the system, except for the problem camera, it's possible the camera may be defective. In this case, please contact support@claronav.com.
+    </P>
+	
+    <p>
+    <li></li><i>Did you switch camera models?</i><br />
+    Sometimes the camera driver will not identify a new camera if it is a different model. Try restarting Windows or re-installing the camera driver while the new camera is plugged in.
+    </P>
+
+	<P>
+    <li></li><i>Where can I get more information?  </i><br />
+
+    More questions and answers can be found in our FAQ: &ltMTHome&gt\Doc\MT FAQ.pdf
+    </P>
+    
+    </ul>
+	
+	</body>
+</html>

@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calib_Veri", "Calib_Veri.csproj", "{A7758C9F-DACF-8E7C-47EA-5DC7AB9B8DAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calib_Veri.Editor", "Calib_Veri.Editor.csproj", "{62A29AA0-FB64-52D7-64EC-C1AD7EC10628}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A7758C9F-DACF-8E7C-47EA-5DC7AB9B8DAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7758C9F-DACF-8E7C-47EA-5DC7AB9B8DAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7758C9F-DACF-8E7C-47EA-5DC7AB9B8DAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7758C9F-DACF-8E7C-47EA-5DC7AB9B8DAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62A29AA0-FB64-52D7-64EC-C1AD7EC10628}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62A29AA0-FB64-52D7-64EC-C1AD7EC10628}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62A29AA0-FB64-52D7-64EC-C1AD7EC10628}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62A29AA0-FB64-52D7-64EC-C1AD7EC10628}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

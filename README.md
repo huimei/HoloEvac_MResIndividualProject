@@ -21,12 +21,12 @@ TODO list:
 - Auto select the best calibration matrix 
 
 IDE used:
-Visual Studio 2015 for C# code
-Eclipse Photon for Java
-Unity 2017.3.1p4 for Unity
+- Visual Studio 2015 for C# code
+- Eclipse Photon for Java
+- Unity 2017.3.1p4 for Unity
 
 Set-up:
-MicronTracker related code requires library from MicronTracker (Get it from the USB provided by MicronTracker)
-OpenCV for eclipse: https://docs.opencv.org/2.4/doc/tutorials/introduction/linux_eclipse/linux_eclipse.html
-Other libraries used in Java code can be found in "Libraries" folder
-Libraries used in C# code can be restored from NuGet packages
+1) MicronTracker related code requires library from MicronTracker (Get it from the USB provided by MicronTracker)
+2) OpenCV for eclipse: https://docs.opencv.org/2.4/doc/tutorials/introduction/linux_eclipse/linux_eclipse.html
+3) Other libraries used in Java code can be found in "Libraries" folder
+4) Libraries used in C# code can be restored from NuGet packages

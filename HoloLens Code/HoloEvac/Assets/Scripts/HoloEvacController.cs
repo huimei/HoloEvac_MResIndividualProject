@@ -70,7 +70,7 @@ public class HoloEvacController : MonoBehaviour
         {
             string[] msSubString = ms.Split(delimiter);
 
-            // if two data exists, skull position has changed with position grater than 3mm
+            // if two data exists, skull position has changed with position grater than 3mm. Changes less than 3mm will not be updated to prevent jitter and cause discomfort 
             if (msSubString.Length == 2)
             {
                 int count = 0;
